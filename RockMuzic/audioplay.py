@@ -1,4 +1,4 @@
-# Copyright (C) 2021 DeCoDe
+
 
 from os import path
 import Rockerz.converter
@@ -11,7 +11,7 @@ from config import (
     QUE_IMG,
     UPDATES_CHANNEL,
 )
-from ProMusic.play import convert_seconds
+from RockMuzic.play import convert_seconds
 from helpers.filters import command, other_filters
 from helpers.gets import get_file_name
 from pyrogram import Client
