@@ -18,7 +18,7 @@ ALIVE_IMG = getenv("ALIVE_IMG", "https://telegra.ph/file/731100f6dd07e75a7872b.j
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 BOT_USERNAME = getenv("BOT_USERNAME", "")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "OctavePlugin")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "")
 GROUP_SUPPORT = getenv("GROUP_SUPPORT", "Rockerz_Support")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "Xmarty_Support")
 # fill here ur owner id username without @
