@@ -1,6 +1,6 @@
 # Rockerz_Muzic
 
-<p align="center"><a href="https://t.me/Rockerz_Muzic_Bot"><img src="https://github.com/S780821/Rockerz_Muzic/raw/PyTgCalls/ImageFont/decode.png"></a></p>
+<p align="center"><a href="https://t.me/Rockerz_Muzic_Bot"><img src="https://github.com/S780821/Rockerz_Muzic/raw/PyTgCalls/ImageFont/Rockerz.png"></a></p>
 
 ## Heroku Deployment 
 The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
