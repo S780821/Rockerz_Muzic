@@ -3,6 +3,6 @@ from os import listdir, mkdir
 if "raw_files" not in listdir():
     mkdir("raw_files")
 
-from DeCoDe.converter.converter import convert
+from Rockerz.converter.converter import convert
 
 __all__ = ["convert"]
