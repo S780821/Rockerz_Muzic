@@ -1,11 +1,11 @@
-# Copyright (C) 2021 DeCoDe
+
 
 from asyncio import QueueEmpty
 
 from callsmusic import callsmusic
 from callsmusic.queues import queues
 from config import BOT_USERNAME, que
-from DeCoDe.cache.admins import admins
+from Rockerz.cache.admins import admins
 from helpers.channelmusic import get_chat_id
 from helpers.dbtools import delcmd_is_on, delcmd_off, delcmd_on, handle_user_status
 from helpers.decorators import authorized_users_only, errors
