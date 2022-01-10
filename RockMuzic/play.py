@@ -120,7 +120,8 @@ async def playlist(client, message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/Rockerz_Support"),
+                InlineKeyboardButton(
+                    "• Gʀᴏᴜᴘ", url=f"https://t.me/ROCKERZ_SUPPORT"),
                 InlineKeyboardButton(
                     "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/Xmarty_Support"
                 ),
@@ -262,7 +263,8 @@ async def p_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/Rockerz_Support"),
+                InlineKeyboardButton(
+                    "• Gʀᴏᴜᴘ", url=f"https://t.me/Rockerz_Support"),
                 InlineKeyboardButton(
                     "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/Xmarty_Support"
                 ),
@@ -310,7 +312,8 @@ async def m_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/Rockerz_Support"),
+                InlineKeyboardButton(
+                    "• Gʀᴏᴜᴘ", url=f"https://t.me/Rockerz_Support"),
                 InlineKeyboardButton(
                     "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/Xmarty_Support"
                 ),
@@ -491,7 +494,7 @@ async def ytplay(_, message: Message):
     global que
     if message.chat.id in DISABLED_GROUPS:
         return
-    lel = await message.reply("**ᴊᴜsᴛ ᴀɴᴅ ᴋᴇᴇᴘ ᴘᴀᴛɪᴇɴᴄᴇ ғᴏʀ sᴏɴɢ**")
+    lel = await message.reply("**ᴊᴜsᴛ ᴡᴀɪᴛ ᴀɴᴅ ᴋᴇᴇᴘ ᴘᴀᴛɪᴇɴᴄᴇ ғᴏʀ sᴏɴɢ**")
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
 
@@ -574,7 +577,7 @@ async def ytplay(_, message: Message):
 
                     InlineKeyboardButton(text="💫 𝙲𝙷𝙰𝙽𝙽𝙴𝙻✨", url=f"https://t.me/xmarty_Support"),
 
-                    InlineKeyboardButton(text="💫𝚂𝚄𝙿𝙿𝙾𝚁T✨", url=f"https://t.me/RockerzSupport")
+                    InlineKeyboardButton(text="💫𝚂𝚄𝙿𝙿𝙾𝚁T✨", url=f"https://t.me/Rockerz_Support")
 ]
             ]
     )
