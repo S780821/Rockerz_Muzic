@@ -11,7 +11,7 @@ from config import (
     OWNER_NAME,
     UPDATES_CHANNEL,
 )
-from ProMusic import __version__
+from RockMuzic import __version__
 from helpers.decorators import sudo_users_only
 from helpers.filters import command
 from pyrogram import Client, filters
@@ -98,7 +98,7 @@ async def start_group(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("✨ Group", url=f"https://t.me/{Rockerz_Support"),
+                InlineKeyboardButton("✨ Group", url=f"https://t.me/Rockerz_Support"),
                 InlineKeyboardButton(
                     "📣 Channel", url=f"https://t.me/Xmarty_Support"
                 ),
