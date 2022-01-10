@@ -64,7 +64,7 @@ async def start_private(client: Client, message: Message):
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
                 ],
                 [
-                    InlineKeyboardButton("📚 Commands", url=f"https://telegra.ph/PRO-MUSIC-COMMANDS-12-23"),
+                    InlineKeyboardButton("📚 Commands", url=f"http://telegra.ph/ᴄᴏᴍᴍᴀɴᴅs-ᴏғ-ʀᴏᴄᴋᴇʀᴢ-01-10,
                     InlineKeyboardButton("❤️ Donate", url=f"https://t.me/xmartperson"),
                 ],
                 [
