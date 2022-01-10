@@ -65,7 +65,7 @@ async def start_private(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton("📚 Commands", url=f"https://telegra.ph/PRO-MUSIC-COMMANDS-12-23"),
-                    InlineKeyboardButton("❤️ Donate", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("❤️ Donate", url=f"https://t.me/xmartperson"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -75,7 +75,7 @@ async def start_private(client: Client, message: Message):
                         "📣 Official Channel", url=f"https://t.me/Xmarty_Support"
                     )
                 ],
-                [InlineKeyboardButton("🌐 Owner", url=f"https://t.me/Xmartperson"),
+                [InlineKeyboardButton("🌐 Owner", url=f"https://t.me/Xmartperson"),]
                 [
                     InlineKeyboardButton(
                         "💕 Source", url="https://github.com/S780821/Rockerz_Muzic"
